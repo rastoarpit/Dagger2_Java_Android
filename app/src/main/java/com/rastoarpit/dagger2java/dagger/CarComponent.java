@@ -5,7 +5,7 @@ import com.rastoarpit.dagger2java.car.Car;
 
 import dagger.Component;
 
-@Component (modules = {WheelsModule.class, PetrolEngineModule.class})
+@Component (modules = {WheelsModule.class, DieselEngineModule.class})
 public interface CarComponent {//The Injector
 
     //Constructor injection
