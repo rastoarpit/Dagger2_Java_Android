@@ -1,4 +1,4 @@
-package com.rastoarpit.dagger2java;
+package com.rastoarpit.dagger2java.car;
 
 import android.util.Log;
 

@@ -1,6 +1,4 @@
-package com.rastoarpit.dagger2java;
-
-import javax.inject.Inject;
+package com.rastoarpit.dagger2java.car;
 
 public class Wheels {
     //we don't own this class so we can't annotate it with @Inject

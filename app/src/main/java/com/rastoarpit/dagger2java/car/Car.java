@@ -1,4 +1,4 @@
-package com.rastoarpit.dagger2java;
+package com.rastoarpit.dagger2java.car;
 
 import android.util.Log;
 
@@ -22,6 +22,7 @@ public class Car {
     }
 
     public void drive(){
-        Log.d(TAG, "driving...");
+         engine.start();
+         Log.d(TAG, "driving...");
     }
 }
